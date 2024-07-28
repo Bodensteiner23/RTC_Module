@@ -1,6 +1,7 @@
 # Ignore all directories or files named backup
 backup/
 backup
+backup/**
 
 # Ignore files named fp-info-cache
 fp-info-cache
