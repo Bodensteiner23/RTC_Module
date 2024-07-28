@@ -1,6 +1,8 @@
 # Ignore all directories or files named backup
 backup/
 backup
+
+# Ignore all files inside any backup directory
 backup/**
 
 # Ignore files named fp-info-cache
@@ -8,3 +10,6 @@ fp-info-cache
 
 # Ignore files with the .kicad_prl extension
 *.kicad_prl
+
+# Ignore all .zip files in the backup directory
+backup/**/*.zip
