@@ -1,10 +1,3 @@
-# Ignore all directories or files named backup
-backup/
-backup
-
-# Ignore all files inside any backup directory
-backup/**
-
 # Ignore files named fp-info-cache
 fp-info-cache
 
@@ -12,4 +5,8 @@ fp-info-cache
 *.kicad_prl
 
 # Ignore all .zip files in the backup directory
-backup/**/*.zip
+*-backups/
+backups/
+
+*.ipc
+*-options.json
