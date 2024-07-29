@@ -2076,7 +2076,7 @@
 				)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "MY-1220-03"
 			(at 0 -6.999999 360)
 			(layer "F.Fab")
 			(uuid "66212afe-ad51-45b4-8cb9-ce6ea26492d6")
@@ -4539,7 +4539,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206PxxxMR"
+		(property "Value" "XC6206P332MR-G"
 			(at 0 2.4 360)
 			(layer "F.Fab")
 			(uuid "8ba1778e-0d55-465e-bb95-28a49f45f8a3")

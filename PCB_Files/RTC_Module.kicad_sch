@@ -3452,7 +3452,7 @@
 				)
 			)
 		)
-		(property "Value" "CR2032 3V"
+		(property "Value" "MY-1220-03"
 			(at 174.6885 19.05 90)
 			(effects
 				(font
