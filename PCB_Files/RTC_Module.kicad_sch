@@ -3247,7 +3247,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206PxxxMR"
+		(property "Value" "XC6206P332MR-G"
 			(at 69.85 33.02 0)
 			(effects
 				(font
@@ -3452,7 +3452,7 @@
 				)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "CR2032 3V"
 			(at 174.6885 19.05 90)
 			(effects
 				(font
