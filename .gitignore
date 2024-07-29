@@ -10,3 +10,6 @@ backups/
 
 *.ipc
 *-options.json
+*#auto_saved_files#
+*.lck
+*_autosave-*

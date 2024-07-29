@@ -1204,7 +1204,10 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
+		(symbol "Regulator_Linear:XC6206PxxxMR"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1216,7 +1219,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117-3.3"
+			(property "Value" "XC6206PxxxMR"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1225,25 +1228,17 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1252,7 +1247,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1261,7 +1256,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1270,10 +1265,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117-3.3_0_1"
+			(property "ki_fp_filters" "SOT?23?3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XC6206PxxxMR_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1283,7 +1287,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-3.3_1_1"
+			(symbol "XC6206PxxxMR_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1956,7 +1960,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.95 90.17) (xy 207.01 90.17)
+			(xy 107.95 88.9) (xy 207.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2220,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.01 12.7) (xy 207.01 90.17)
+			(xy 207.01 12.7) (xy 207.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2270,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.48 90.17) (xy 207.01 90.17)
+			(xy 284.48 88.9) (xy 207.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "1uF/10V"
 			(at 53.34 41.9099 0)
 			(effects
 				(font
@@ -3226,6 +3230,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:XC6206PxxxMR")
+		(at 69.85 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fd91be3-1e30-4b69-9cdb-96e42c428828")
+		(property "Reference" "U3"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206PxxxMR"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 69.85 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4d58a0d6-e904-4616-a4ce-31b7c00fd5b4")
+		)
+		(pin "1"
+			(uuid "a1429ab4-098a-4b6d-ba57-348f78c8705d")
+		)
+		(pin "2"
+			(uuid "0b9a4a59-542c-473b-b66a-96517709110b")
+		)
+		(instances
+			(project "RTC_Module"
+				(path "/3db6da75-e5f1-4a4e-a849-4536ae13a301"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 132.08 50.8 270)
 		(unit 1)
@@ -3269,7 +3345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CL10C120JB8NNNC"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -3670,7 +3746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CL10C120JB8NNNC"
 			(at 132.08 62.23 0)
 			(effects
 				(font
@@ -3824,76 +3900,6 @@
 			(project "RTC_Module"
 				(path "/3db6da75-e5f1-4a4e-a849-4536ae13a301"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 69.85 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c19b5374-0722-479e-a31f-641c85db9ed5")
-		(property "Reference" "U1"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 69.85 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 72.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b8d84ae-ae68-40df-aa84-dfcf12e0d121")
-		)
-		(pin "3"
-			(uuid "08cfce6b-44ea-4097-93fa-2f0c20aac06b")
-		)
-		(pin "1"
-			(uuid "37f86cac-04dc-42aa-ae90-ce15f981cdb7")
-		)
-		(instances
-			(project "RTC_Module"
-				(path "/3db6da75-e5f1-4a4e-a849-4536ae13a301"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4188,7 +4194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/10V"
+		(property "Value" "1uF/10V"
 			(at 90.17 41.9099 0)
 			(effects
 				(font
